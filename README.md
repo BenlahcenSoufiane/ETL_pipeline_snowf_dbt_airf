@@ -65,17 +65,7 @@ airflow scheduler
 airflow webserver
 ```
 Trigger the DAG for dbt models in the Airflow UI.
-##  Project Structure 📂
-
-.
-├── dags/                     
-├── dbt_project/              
-│   ├── models/
-│   ├── macros/
-│   ├── tests/
-│   └── dbt_project.yml
-├── README.md                 
-└── requirements.txt          
+        
 ## Key Concepts Covered 💡
 Source and Staging Tables: Create base layers for data transformation.
 Fact Tables and Data Marts: Transform raw data into meaningful insights.
